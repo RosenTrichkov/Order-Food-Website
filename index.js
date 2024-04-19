@@ -337,7 +337,7 @@ function addProducts1() {
     for (i = 0; i < productsArray1.slice(10).length; i++) {
         let newDiv = document.createElement("div");
         newDiv.className = "wrapper-box";
-       let boxItems1 = `<img class = "promo_image" src="/images/${products[i].image}"/>
+       let boxItems1 = `<img class = "promo_image" src="./images/${products[i].image}"/>
         <div class="productTitle"><a class="titleOfProduct" href="#pick">${products[i].name}</a></div>
         <span class="currency-front">$</span>
         <span class="amountOfMoney">${products[i].price}</span>
@@ -352,7 +352,7 @@ function addProducts2() {
     for (i = 5; i < 10; i++) {
         let newDiv = document.createElement("div");
         newDiv.className = "wrapper-box";
-        let boxItems2 = `<img class = "promo_image" src="/images/${products[i].image}"/>
+        let boxItems2 = `<img class = "promo_image" src="./images/${products[i].image}"/>
         <div class="productTitle"><a class="titleOfProduct" href="#pick">${products[i].name}</a></div>
         <span class="currency-front">$</span>
         <span class="amountOfMoney">${products[i].price}</span>
@@ -367,7 +367,7 @@ function addProducts3() {
     for (i = 10; i < 15; i++) {
         let newDiv = document.createElement("div");
         newDiv.className = "wrapper-box";
-        let boxItems3 = `<img class = "promo_image" src="/images/${products[i].image}"/>
+        let boxItems3 = `<img class = "promo_image" src="./images/${products[i].image}"/>
         <div class="productTitle"><a class="titleOfProduct" href="#pick">${products[i].name}</a></div>
         <span class="currency-front">$</span>
         <span class="amountOfMoney">${products[i].price}</span>
